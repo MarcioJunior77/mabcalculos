@@ -1,0 +1,136 @@
+#inputs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 40px 0 40px;
+}
+
+#input {
+    margin: 10px auto;
+    width: 220px;
+}
+
+.bottom_form_buttons {
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.goBack {
+    margin: 60px 60px 0 60px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: var(--text_color);
+    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0, 0.25);
+    transition: 0.2s;
+}
+
+.goBack:hover, .goForward:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.goForward {
+    margin: 60px 60px 0 60px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: var(--green_color);
+    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0, 0.25);
+    transition: 0.2s;
+}
+
+#title_review {
+    margin: 10px 32px 10px;
+    font-size: 20px;
+    color: var(--text_color);
+}
+
+#list_review {
+    display: flex;
+    flex-direction: column;
+}
+
+#item_detail {
+    margin: -1px 32px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#class_name_review, #class_price_review {
+    font-size: 20px;
+    color: var(--text_color);
+}
+
+#line1 {
+    width: 550px;
+    height: 2px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+#total_review {
+    margin: 10px 32px 0;
+    font-size: 12px;
+    color: var(--text_color);
+}
+
+#payment_title {
+    margin: 10px 32px 20px;
+    font-size: 20px;
+    color: var(--text_color);
+}
+
+#total_price_review {
+    /* color: rgb(20, 212, 29); */
+    color: var(--text_color);
+}
+
+#card_payment {
+    padding: 0px 30px;
+}
+
+#finish_thanks_message {
+    margin: 10px 0 10px 32px;
+    font-size: 25px;
+    color: var(--text_color);
+}
+
+#finish_advice {
+    margin: 0 0 10px 32px;
+    font-size: 18px;
+    color: var(--text_color);
+}
+
+#finish_line {
+    margin: 0 auto;
+    align-content: center;
+    width: 540px;
+}
+
+#finish_button {
+    margin: 20px 32px 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: white;
+    background-color: var(--green_color);
+    border-style: none;
+    border-radius: 10px;
+}
+
+#finish_button:hover {
+    cursor: pointer;
+}

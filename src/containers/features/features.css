@@ -1,0 +1,62 @@
+.partSection {
+    text-align: center;
+    align-items: center;
+    display: block;
+    width: 100%;
+}
+
+#featuresTitle {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: var(--text_color);
+}
+
+.decorate {
+    color: var(--text_color);
+    background-color: var(--green_color);
+    padding: 0 7px;
+    border-radius: 5px;
+}
+
+#advice {
+    font-size: 20px;
+    display: flex;
+    margin-left: 10%;
+    color: red;
+}
+
+.aulas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 30vh;
+    transition: ease-in-out 0.5s;
+}
+
+#classes {
+    margin: auto;    
+    max-width: 2000px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1339px) {
+    #featuresTitle {
+        font-size: 40px;
+    }    
+}
+
+@media screen and (max-width:1000px) {
+    #featuresTitle {
+        font-size: 30px;
+    }  
+}
+
+@media screen and (max-width:800px) {
+    #featuresTitle {
+        margin-top: 100px;
+        font-size: 25px;
+    }  
+}
